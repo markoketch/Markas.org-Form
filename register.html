@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="form">
@@ -46,6 +48,7 @@
                 <label for="image-preview">Profile Image:</label>
                 <input type="file" id="image-preview" name="image" class="file-input" 
                 required oninvalid="this.setCustomValidity('select a profil image')" oninput="this.setCustomValidity('')">
+                <i class="fas fa-user-edit"></i>
             </div>
            </div>
            <div class="submit">
